@@ -1,13 +1,13 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
+    base: '/JS-NPM/',
     build: {
         rollupOptions: {
             input: {
                 main: 'index.html',
-                about: 'about.html', // 新增其他頁面的 HTML 文件
-            },
-        },
-    },
-    base: '/JS-NPM/'
-});
+                admin: 'admin.html'
+            }
+        }
+    }
+})
