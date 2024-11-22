@@ -1,3 +1,5 @@
+import * as c3 from './c2';
+import * as d3 from './d3';
 // C3.js
 let chart = c3.generate({
     bindto: '#chart', // HTML 元素綁定

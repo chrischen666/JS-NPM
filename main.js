@@ -1,5 +1,5 @@
 
 import "./css/app.css";
-import   './js/d3.js';
-import  './js/c3.js';
+// import * as d3 from 'd3';
+// import c3 from 'c3';
 import './js/admin.js';
