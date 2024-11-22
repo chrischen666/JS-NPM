@@ -9,5 +9,8 @@ export default defineConfig({
                 admin: 'admin.html'
             }
         }
+    },
+    optimizeDeps: {
+        include: ['d3', 'c3']
     }
 })
