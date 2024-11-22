@@ -1,22 +1,13 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: '/JS-NPM/',
+    base: '/JS-NPM/',  // 換成您的 repo 名稱
     build: {
         rollupOptions: {
             input: {
                 main: 'index.html',
-                admin: 'admin.html'
-            },
-            output: {
-                manualChunks: {
-                    d3Chunk: ['d3'],
-                    c3Chunk: ['c3']
-                }
+                admin: 'admin.html'  // 加入第二個頁面
             }
         }
-    },
-    optimizeDeps: {
-        include: ['d3', 'c3']
     }
-});
+})

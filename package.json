@@ -2,12 +2,11 @@
     "name": "js-npm",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "main.js",
     "scripts": {
         "dev": "vite",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "deploy": "vite build && gh-pages -d dist",
-        "predeploy": "vite build"
+        "deploy": "vite build && gh-pages -d dist"
     },
     "keywords": [],
     "author": "",
